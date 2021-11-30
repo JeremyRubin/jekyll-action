@@ -13,6 +13,7 @@ RUN apk add --update curl
 
 # debug
 RUN bundle version
+RUN gem install bundler:2.2.21
 
 COPY LICENSE README.md /
 
